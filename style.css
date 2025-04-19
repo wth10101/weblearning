@@ -1,0 +1,48 @@
+body {
+    color:#909090;
+    background-color: #101010;
+}
+
+a {
+    color:#008000;
+}
+
+h1, h2, h3 {
+    color:white;
+    font-family: Impact;
+}
+
+li {
+    color:#900000
+}
+
+p {
+    font-family:system-ui;
+}
+
+table{
+    border-width: 1px;
+    border-color: #900000;
+    border-style: solid;
+}
+
+#navbar{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size:larger;
+}
+
+#navbar a {
+    border: 1px solid rgb(181, 178, 178); /* Adds a light border */
+    padding: 5px; /* Adds spacing inside the border */
+    text-decoration: none; /* Removes underline from links */
+    display: inline-block; /* Ensures proper spacing around the border */
+    background-color: black;
+    border-radius:  5px;
+}
+
+div{
+    padding:10px
+}
