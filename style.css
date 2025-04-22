@@ -20,10 +20,15 @@ p {
     font-family:system-ui;
 }
 
-table{
+table, td{
     border-width: 1px;
     border-color: #900000;
     border-style: solid;
+    border-collapse: collapse;
+}
+
+td{
+    padding:12px;
 }
 
 #navbar{
