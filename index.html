@@ -14,40 +14,44 @@
     </nav>
 
     <div class="row"> 
-    <div class="column"> <!-- Col 1 -->
-    <table>
-    <td><img src="Cover_Art_of_Doom_Eternal.png" height="200"></td>
-        <td><p><strong>Doom Eternal</strong> is a 2020 first-person shooter game developed by <a href="https://www.idsoftware.com/en">id Software</a> and published by Bethesda Softworks. 
-        <br>The sequel to Doom (2016), and the fith game in the Doom series</p></td>
-    </table>
-    </div>
-    <div class="column"> <!-- Col 2 -->
-        <br>Doom has been ported to a variety of platforms both officially and unofficially and has been followed by several games in the series, including 
-        <ol>
-        <li>Doom II (1994)</li>
-        <li>Doom 64 (1997)</li>
-        <li>Doom 3 (2004)</li>
-        <li>Doom (2016)</li>
-        <li>Doom Eternal (2020)</li>
-        <li>Doom The Dark Ages (2025)</li>
-        </ol>
-    </div> <!-- End col 2 -->
-    <div class="column"> <!-- Col 3 -->
-    <h3>Mailing List</h3>
-    <p>To be kept up to date with information about Doom join our mailing list</p>
-    <form>
-        <label for="fname">Name:</label>
-        <input type="text" name="name">
-        <br><br>
-        <label for="fname">Email:</label>
-        <input type="text" name="email">
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
-    </div> <!-- End col 3 -->
+        <div class="column"> <!-- Col 1 -->
+            <table>
+            <td><img src="Cover_Art_of_Doom_Eternal.png" height="200"></td>
+                <td><p><strong>Doom Eternal</strong> is a 2020 first-person shooter game developed by <a href="https://www.idsoftware.com/en">id Software</a> and published by Bethesda Softworks. 
+                <br>The sequel to Doom (2016), and the fith game in the Doom series</p></td>
+            </table>
+        </div>
+        <div class="column"> <!-- Col 2 -->
+            <br>Doom has been ported to a variety of platforms both officially and unofficially and has been followed by several games in the series, including 
+            <ol>
+            <li>Doom II (1994)</li>
+            <li>Doom 64 (1997)</li>
+            <li>Doom 3 (2004)</li>
+            <li>Doom (2016)</li>
+            <li>Doom Eternal (2020)</li>
+            <li>Doom The Dark Ages (2025)</li>
+            </ol>
+        </div> <!-- End col 2 -->
+        <div class="column"> <!-- Col 3 -->
+            <h3>Mailing List</h3>
+            <p>To be kept up to date with information about Doom join our mailing list</p>
+            <form id="myForm">
+                <label for="fname">Name:</label>
+                <input type="text" name="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <br><br>
+                <input type="button" onclick="myFunction()" value="Subscribe">
+            </form>
+            <div id="formResponse"></div>
+        </div> <!-- End col 3 -->
     </div> <!-- End row -->
     <footer>
         <p>Author: Mr H software <a href="mailto:mrhs@gmail.com">mrhs@gmail.com</a></p>
     </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
