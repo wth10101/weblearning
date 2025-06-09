@@ -20,16 +20,6 @@ p {
     font-family:system-ui;
 }
 
-table, td{
-    border-width: 1px;
-    border-color: #900000;
-    border-style: solid;
-    border-collapse: collapse;
-}
-
-td{
-    padding:12px;
-}
 
 #navbar{
     background-color: #333;
@@ -48,6 +38,38 @@ td{
     border-radius:  5px;
 }
 
-div{
-    padding:10px
+/* Simple box layout */
+/* Applying box-sizing: border-box universally ensures that padding */
+/* and border are included within the element's total width and height */
+/* making layout calculations easier. */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 32%;
+  margin: 5px;
+  padding: 5px;
+  border-width: 1px;
+  border-color: #900000;
+  border-style: solid;
+  height:100%;
+  
+}
+
+/* Clear floats after the columns to ensure that the parent container properly encloses the floated elements. 
+   Without clearing, the parent container's height may collapse, causing layout issues. */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:900px) {
+  .column {
+    width: 100%;
+  }
 }
