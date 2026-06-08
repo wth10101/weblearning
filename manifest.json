@@ -1,0 +1,15 @@
+{
+  "name": "Pico W BLE Controller",
+  "short_name": "PicoBLE",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007fff",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/190/190411.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
