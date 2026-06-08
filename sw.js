@@ -1,8 +1,8 @@
 const CACHE_NAME = 'pico-ble-v1';
 const ASSETS = [
   './',
-  './index.html',
-  './app.js',
+  './pwa.html',
+  './pwa.js',
   './manifest.json'
 ];
 
